@@ -1,0 +1,75 @@
+/* Header Component */
+.navbar {
+  background-color: #EEE8AA;
+}
+.color-change {
+  color: orange;
+}
+.navbar-brand {
+  padding: 12px 0px;
+  font-size: 25px;
+ font-weight: bold;
+ margin-left: 2px;
+}
+div.mr-auto.navbar-nav .nav-link{
+  margin-right: 60px;
+}
+
+.links {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.links .mr-auto .nav-link {
+  padding-right: 80px;
+  font-size: 20px;
+  color: #000;
+}
+.logins .nav-link {
+  display: inline;
+  text-decoration: none;
+  color: #000;
+}
+/* Footer */
+.footer {
+  background-color: grey;
+  clear: both;
+}
+.footer p {
+  padding: 15px 0px;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+}
+
+/* Add button */
+.text{
+  float: left;
+  border: 2px solid red;
+  text-align: center;
+  font-size: 20px;
+  width: 50%;
+  margin: 20px;
+  margin-left: 20%;
+  }
+
+.button{
+  float: left;
+  text-align: center;
+  border: 2px solid black;
+  margin-top: 20px;
+  padding: 2px;
+  width: 5%;
+}
+.add{
+  display: inline-block;
+}
+
+.patient{
+  clear: both;
+  margin-bottom: 20px;
+}
+
+.add:target{
+  display: none;
+}
